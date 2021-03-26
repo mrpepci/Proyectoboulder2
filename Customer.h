@@ -15,8 +15,8 @@ private:
 public:
     Customer();
     Customer(string,int[],int);
-    string getCustomerName(string);
-    void setCustomerName();
+    string getCustomerName();
+    void setCustomerName(string);
     int getPurchasesAt(int);
     void setPurchaseAt(int,int);
     int getNumUniquePurchases();
